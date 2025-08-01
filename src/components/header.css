@@ -1,0 +1,64 @@
+.jntuh-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: white;
+  min-height: 130px;  /* Reduced header height */
+}
+
+.jntuh-left img.jntuh-logo {
+  height: 130px;        /* Slightly reduced from 150px */
+  /* Ensure tight gap */
+  width:350px;
+}
+
+.jntuh-center {
+  flex-grow: 1;
+  text-align: center;
+  padding-left: 0;  /* Remove extra space */
+  margin-left: -50px;  /* Pull closer to logo */
+}
+
+.jntuh-center h1 {
+  font-size: 26px;
+  font-weight: 800;      /* Bolder font */
+  margin: 0;
+  color: #c00074;        /* JNTUH theme color */
+  font-family: 'Georgia', serif;
+}
+
+.jntuh-center p {
+  margin: 3px 0;
+  font-size: 15px;
+  color: #222;
+  font-family: 'Georgia', serif;
+}
+
+.jntuh-center .naac {
+  font-style: italic;
+  font-size: 14px;
+  color: #444;
+}
+
+.jntuh-right img.ts-logo {
+  height: 60px;
+  width: auto;
+}
+.jntuh-underline {
+  height: 5px; /* thickness of the line */
+  background-color: #c00074; /* JNTUH pink color */
+  width: 100%;
+  margin-top: -5px; /* pull it closer if needed */
+}
+.jntuh-topline {
+  height: 5px; /* thickness of the line */
+  background-color: black; /* JNTUH pink color */
+  width: 100%;
+  margin-top: -5px; /* pull it closer if needed */
+}
+.naac {
+  color: red !important;
+  font-weight: bold;
+  padding: 5px;
+}

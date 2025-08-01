@@ -1,0 +1,97 @@
+/* JNTUH-style inspired form.css */
+
+.form-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111508.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #333;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  border-top: 5px solid #8e44ad;
+}
+
+.form-box h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #2c3e50;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.textbox {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.textbox input[type="text"],
+.textbox input[type="email"],
+.textbox input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8px;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8e44ad;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #732d91;
+}
+
+.switch-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+.login-message {
+  margin-top: 12px;
+  color: #d35400;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
